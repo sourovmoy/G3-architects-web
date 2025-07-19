@@ -7,7 +7,8 @@
   font-weight: 400px;
   font-style: normal;
 }
-/* text color */
+/* shared style */
+     /* text color */
 .dark1{
   color: #131313;
 }
@@ -16,4 +17,24 @@
 }
 .dark3{
   color: #727272;
+}
+.dis-flex{
+  display: flex;
+}
+.bg-color1{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* navbar */
+.navbar{
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0px auto;
+}
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link{
+  text-decoration: none;
 }
