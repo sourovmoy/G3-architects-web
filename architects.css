@@ -153,21 +153,54 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+.facts-container img{
+  margin-top: 46px;
+}
 .fact{
   border:1px solid #FF900E ;
   border-radius: 8px;
-  text-align: center;
-  
+  width: 240px;
+  height: 240px;
+
 }
+.facts-card{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+ 
+}
+  
 .some-facts h4{
   font-size: 2.8rem;
   font-weight: 600;
   color: #424242;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 .some-facts h5{
   font-size: 1.25rem;
   font-weight: 600;
   color: #727272;
+  margin-top: 2px;
+}
+
+/* footer */
+.copyright{
+  justify-content:center ;
+  
+  height: 40px;
+  background-color: #FFF4E7;
+  text-align: center;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 39px 410px;
+}
+.cppyright-paragraph{
+  font-size: 1.25rem;
+  font-weight: 400;
+  
+  
 }
 
 
