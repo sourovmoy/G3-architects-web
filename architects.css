@@ -4,7 +4,6 @@
 .work-sans-font{
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400px;
   font-style: normal;
 }
 /* shared style */
@@ -23,13 +22,29 @@
 }
 .bg-color1{
   background-color: rgba(255, 144, 14, 0.1);
+} 
+.btn1{
+  background-color: #FF900E;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  font-family: 600;
+  color: #FFFFFF;
+  padding: 20px 24px;
+  margin-bottom: 50px;
 }
 
-/* navbar */
+   /* navbar */
+.brand-logo{
+  font-size: 2.8rem;
+  font-weight: 700;
+
+}
 .navbar{
   justify-content: space-between;
   max-width: 1440px;
   margin: 0px auto;
+  align-items: center;
 }
 .nav-item{
   list-style: none;
@@ -37,4 +52,29 @@
 }
 .nav-link{
   text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
+  /* banner */
+  .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .banner-titel{
+    font-size: 4rem;
+    font: 700;
+  }
+  .banner-details{
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .banner-content{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+  
+  }
+  .banner-image{
+    width: 100%;
+  }
