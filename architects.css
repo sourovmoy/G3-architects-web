@@ -124,8 +124,19 @@
   }
 
   @media screen and (max-width:576px) {
-    .navbar{
+    .navbar,.features {
       flex-direction:column ;
+    }
+    .features-team{
+      grid-template-columns: repeat(1, 1fr);
+      justify-items: center;
+    } 
+    .team{
+      width: 100%;
+    }
+    .features-blog {
+      justify-items: center;
+      text-align: center;
     }
     
   }
