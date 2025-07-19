@@ -1,4 +1,4 @@
-
+/* font style */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 .work-sans-font{
@@ -6,4 +6,14 @@
   font-optical-sizing: auto;
   font-weight: 400px;
   font-style: normal;
+}
+/* text color */
+.dark1{
+  color: #131313;
+}
+.dark2{
+  color: #424242;
+}
+.dark3{
+  color: #727272;
 }
