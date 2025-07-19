@@ -7,15 +7,19 @@
   font-style: normal;
 }
 /* shared style */
+
      /* text color */
 .dark1{
   color: #131313;
 }
 .dark2{
   color: #424242;
+  
 }
 .dark3{
   color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
 }
 .dis-flex{
   display: flex;
@@ -104,6 +108,8 @@
   .blog-paragraph{
     font-size: 1rem;
     font-weight: 600;
+    max-width: 537px;
+    margin-bottom: 70px;
   }
   #features{
     color: #FF900E;
@@ -122,6 +128,49 @@
     object-fit: cover;
 
   }
+       /* love and enjoy */
+  .love-enjoy{
+    display: flex;
+  }
+  .love-enjoy h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+.love-enjoy-head{
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.love-enjoy-paragraph{
+
+}
+
+/* some facts */
+.some-facts-head {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.facts-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.fact{
+  border:1px solid #FF900E ;
+  border-radius: 8px;
+  text-align: center;
+  
+}
+.some-facts h4{
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #424242;
+}
+.some-facts h5{
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #727272;
+}
+
+
 
   @media screen and (max-width:576px) {
     .navbar,.features {
