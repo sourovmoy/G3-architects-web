@@ -129,8 +129,13 @@
 
   }
        /* love and enjoy */
+
+  .love-enjoy-content{
+
+
+  }
   .love-enjoy{
-    display: flex;
+    /* display: flex; */
   }
   .love-enjoy h3{
     font-size: 1.25rem;
@@ -140,8 +145,8 @@
   font-size: 2.8rem;
   font-weight: 700;
 }
-.love-enjoy-paragraph{
-
+.love-enjoy-titel{
+  border-left: 5px solid #FF900E;
 }
 
 /* some facts */
